@@ -51,108 +51,6 @@
 			visibility: visible;
 		}
 	</style>
-	<style>
-		@media (min-width: 600px) {
-		.ProjectsHeading {
-			margin-block: 100px 50px;
-			text-align: center;
-		}
-			.rerow {
-				display: grid!important;
-				grid-template-columns: 1fr 35%;
-			}
-		}
-		.slider-container {
-		width: 400px;
-		margin: auto;
-		overflow: hidden;
-		/* border: 1px solid #ccc; */
-		position: relative;
-		margin-bottom: 0;
-		}
-		.slider-wrapper {
-		display: flex;
-		transition: transform 0.5s ease-in-out;
-		}
-		.slide {
-		min-width: 100%;
-		box-sizing: border-box;
-		display: flex;
-		flex-direction: column;
-		max-height: 800px;
-		}
-		.AppSlider, .DesktopSlider {
-			display: flex;
-			flex-wrap: wrap;
-			row-gap: 40px;
-		}
-		.App1Slide, .App2Slide, .App3Slide {
-			display: flex;
-			justify-content: center;
-			min-width: 100%;
-			box-sizing: border-box;
-			/* height: 650px; */
-  			transition: transform 0.5s ease-in-out;
-		}
-		.DesktopSlider .slider-container {
-			width: 48%;
-		}
-		.Website1Slide, .Website2Slide {
-			display: flex;
-			justify-content: center;
-			min-width: 100%;
-			box-sizing: border-box;
-			max-height: 650px;
-  			transition: transform 0.5s ease-in-out;
-		}
-		.App1Slide img, .App2Slide img, .App3Slide img, .Website1Slide img, .Website2Slide img {
-			object-fit: contain;
-		}
-		.item-wrapper {
-			width: 100%;
-			height: 50%;
-		}
-		.slider-prev, .slider-next {
-		cursor: pointer;
-		position: absolute;
-		top: 50%;
-		width: 45px;
-		height: 45px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border-radius: 100%!important;
-		padding: 16px;
-		margin-top: -22px;
-		color: white;
-		font-weight: bold;
-		font-size: 18px;
-		transition: 0.6s ease;
-		border-radius: 0 3px 3px 0;
-		background-color: rgba(0, 0, 0, 0.8);
-		border: none!important;
-		outline: none;
-		user-select: none;
-		}
-		.slider-prev {
-		left: 2px;
-		}
-		.slider-next {
-		right: 2px;
-		}
-		@media (max-width: 600px) {
-		.ProjectsHeading {
-			margin-block: 70px 30px;
-			text-align: center;
-		}
-		.slider-prev, .slider-next {
-			font-size: 14px;
-		}
-		.slider-container {
-			width: 300px!important;
-		}
-		}
-	</style>
 	<!-- container -->
 	<link rel='stylesheet' id='elementor-frontend-css' href='assets/CSS/head-frontend.css' type='text/css'
 		media='all' />
@@ -214,8 +112,8 @@
 							<a href="#Specialization">Specialization</a>
 						</li>
 						<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"
-							data-menuanchor="Experience & Education">
-							<a href="#Exp&Edu">Experience & Education</a>
+							data-menuanchor="Resume">
+							<a href="#Resume">Resume</a>
 						</li>
 						<li id="menu-item-10"
 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"
@@ -307,12 +205,11 @@
 																															</div>
 																															<div class="elementor-element elementor-element-35f993c3  elementor-widget elementor-widget-vlt-video-button"
 																																>
-																																<br>
 																																<div class="elementor-widget-container">
 																																	<a class="vlt-video-button" style="text-decoration: solid;" target="_blank">
 																																		
 																																		<span style="margin-left: 0%; color: white;">I'm Fullstact Developer. I can develop websites/APIs, Mobile Apps,Desktop Apps.<br>
-																																		Currenty I'm learning Data Engineering and Automation.</span>
+																																		Currenty I'm learning Data Science and AI automation.</span>
 																																	</a>
 																																</div>
 																															</div>
@@ -335,7 +232,7 @@
 																																data-widget_type="vlt-video-button.default">
 																																<div class="elementor-widget-container">
 																																	<a class="vlt-video-button" style="text-decoration: solid;" target="_blank"
-																																		href="https://drive.google.com/file/d/1CnL5BAG73rOHydxJW8c1kPr0tP7FJ2Pr/view?usp=sharing">
+																																		href="https://drive.google.com/file/d/104NblL2G2Rm5ZvRbCyswv0_4p-jyky-g/view?usp=sharing">
 																																		<i class="fas fa-play"></i>
 																																		<span>Watch Resume</span>
 																																	</a>
@@ -446,9 +343,8 @@
 																																		<span>WebSite/API Development</span>
 																																	</h4>
 																																	<div class="vlt-icon-box__content" style="color: #efebeb;">
-																																		❖ Local Shop<br>
-																																		❖ Littel Balloon<br>
-																																		❖ Flims Mall<br>
+																																		❖ E-commerce Website (Multi -Vendor)<br>
+																																		❖ E-commerce Website (Single -Vendor)<br>
 																																		❖ Blog
 																																	</div>
 																																</div>
@@ -526,10 +422,7 @@
 																																	</h4>
 																																	<div class="vlt-icon-box__content" style="color: #efebeb;">
 																																		❖ Slam Book<br>
-																																		❖ ECSTASY<br>
-																																		❖ Let's Watch<br>
-																																		❖ MediKnow<br>
-																																		❖ Foodii
+																																		❖ ECSTASY
 																																	</div>
 																																</div>
 																															</div>
@@ -619,13 +512,13 @@
 																		</div>
 																	</div>
 																</div>
-																<div class="vlt-section pp-scrollable" data-anchor="Exp&Edu">
+																<div class="vlt-section pp-scrollable" data-anchor="Resume">
 																	<div class="vlt-section__vertical-align-wrap">
 																		<div class="vlt-section__background has-mask"
 																			style="background-image: linear-gradient(212deg, #7744c9 12%, #13a4ad 39%,#505285 100%);">
 																		</div>
 																		<div class="vlt-section__title d-none d-lg-block">
-																			<span>Experience & Education</span></div>
+																			<span>Resume</span></div>
 																		<div class="vlt-section__vertical-align vlt-boxed">
 																			<div class="">
 																				<div class="vlt-section__content">
@@ -639,8 +532,8 @@
 																									class="elementor-element elementor-element-1646732c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
 																									data-id="1646732c"
 																									data-element_type="section">
-																									<div style="margin-inline: 5% 1%;">
-																										<div class="rerow elementor-row">
+																									<div style="margin-inline: 4%;">
+																										<div class="elementor-row">
 																											<div class="elementor-element elementor-element-77f44ff1 elementor-column elementor-top-column"
 																												data-id="77f44ff1"
 																												data-element_type="column">
@@ -844,7 +737,7 @@
 																		<div class="vlt-section__title d-none d-lg-block">
 																			<span>My Skills</span></div>
 																		<div class="vlt-section__vertical-align vlt-boxed">
-																			<div style="margin-inline: 5% 1%;">
+																			<div class="container">
 																				<div class="vlt-section__content">
 																					<div data-elementor-type="page"
 																						data-elementor-id="88"
@@ -856,7 +749,7 @@
 																									class="elementor-element elementor-element-7bcbe286 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
 																									data-id="7bcbe286"
 																									data-element_type="section">
-																									<div class="elementor-column-gap-default">
+																									<div class="elementor-container elementor-column-gap-default">
 																										<div class="elementor-row"
 																											style="justify-content: space-between;">
 																											<div class="elementor-element elementor-element-15a37c66 elementor-column elementor-col-50 elementor-top-column"
@@ -897,11 +790,11 @@
 																																data-widget_type="heading.default">
 																																<div class="elementor-widget-container">
 																																	<div class="elementor-heading-sktitle elementor-size-default">
-																																		❖&ensp;JavaScript<br>
 																																		❖&ensp;Python<br>
+																																		❖&ensp;C#<br>
 																																		❖&ensp;HTML5<br>
 																																		❖&ensp;CSS3<br>
-																																		❖&ensp;C#<br>
+																																		❖&ensp;JavaScript<br>
 																																		❖&ensp;C++
 																																	</div>
 																																</div>
@@ -929,14 +822,12 @@
 																																data-widget_type="heading.default">
 																																<div class="elementor-widget-container">
 																																	<div class="elementor-heading-sktitle elementor-size-default">
-																																		❖&ensp;React<br>
-																																		❖&ensp;Magento2<br>
-																																		❖&ensp;Graphql<br>
-																																		❖&ensp;React Native<br>
-																																		❖&ensp;RestAPI<br>
 																																		❖&ensp;Django<br>
+																																		❖&ensp;RestAPI<br>
 																																		❖&ensp;WinForms<br>
 																																		❖&ensp;WPF<br>
+																																		❖&ensp;React<br>
+																																		❖&ensp;React Native<br>
 																																		❖&ensp;Bootstrap<br>
 																																		❖&ensp;MaterialUI
 																																	</div>
@@ -967,7 +858,6 @@
 																																<div class="elementor-widget-container">
 																																	<div class="elementor-heading-sktitle elementor-size-default">
 																																		❖&ensp;SQL<br>
-																																		❖&ensp;MongoDB<br>
 																																		❖&ensp;Firebase
 																																	</div>
 																																</div>
@@ -997,7 +887,6 @@
 																																<div class="elementor-widget-container">
 																																	<div class="elementor-heading-sktitle elementor-size-default">
 																																		❖&ensp;Figma<br>
-																																		❖&ensp;Adobe Illsutrator<br>
 																																		❖&ensp;VisualStudio<br>
 																																		❖&ensp;VisualStudio Code<br>
 																																		❖&ensp;Pycharm<br>
@@ -1035,45 +924,12 @@
 																																style="margin-top: 15px;">
 																																<div class="elementor-widget-container">
 																																	<div class="elementor-heading-sktitle elementor-size-default">
-																																		❖&ensp;<b>Communication Skills:</b><br>
-																																		Clear Articulation: Express technical concepts in a clear and understandable manner.<br>
-																																		Active Listening: Understand colleagues' perspectives and requirements.<br><br>
-																																		❖&ensp;<b>Team Collaboration:</b><br>
-																																		Team Player: Work well with others, contribute to a positive team environment.<br>
-																																		Conflict Resolution: Resolve conflicts professionally and amicably.<br><br>
-																																		❖&ensp;<b>Problem Solving:</b><br>
-																																		Analytical Thinking: Approach problem-solving methodically.<br>
-																																		Creativity: Think creatively to devise innovative solutions.<br><br>
-																																		❖&ensp;<b>Adaptability:</b><br>
-																																		Openness to Change: Adapt to new technologies and methodologies.<br>
-																																		Learning Agility: Quickly grasp new concepts and tools.<br><br>
-																																		❖&ensp;<b>Time Management:</b><br>
-																																		Prioritization: Manage workload efficiently by prioritizing tasks.<br>
-																																		Meeting Deadlines: Consistently deliver work on time.<br><br>
-																																		❖&ensp;<b>Leadership Skills:</b><br>
-																																		Motivational Skills: Inspire and motivate team members.<br>
-																																		Vision: Provide a clear vision and direction for the team.<br><br>
-																																		❖&ensp;<b>Communication and Feedback:</b><br>
-																																		Effective Communication: Clearly convey expectations and goals.<br>
-																																		Constructive Feedback: Provide feedback that helps individuals grow.<br><br>
-																																		❖&ensp;<b>Conflict Resolution:</b><br>
-																																		Mediation Skills: Resolve conflicts within the team.<br>
-																																		Negotiation: Negotiate effectively with stakeholders.<br><br>
-																																		❖&ensp;<b>Team Building:</b><br>
-																																		Building Trust: Foster a culture of trust and transparency.<br>
-																																		Diversity and Inclusion: Encourage a diverse and inclusive team.<br><br>
-																																		❖&ensp;<b>Project Management:</b><br>
-																																		Planning and Organization: Efficiently plan and organize project tasks.<br>
-																																		Risk Management: Anticipate and mitigate project risks.<br><br>
-																																		❖&ensp;<b>Emotional Intelligence:</b><br>
-																																		Self-awareness and Empathy: Understand one's emotions and empathize with others.<br>
-																																		Cultural Sensitivity: Be aware and respectful of cultural differences.<br><br>
-																																		❖&ensp;<b>Decision Making:</b><br>
-																																		Decisiveness: Make timely and well-informed decisions.<br>
-																																		Inclusive Decision-Making: Involve the team in significant decisions.<br><br>
-																																		❖&ensp;<b>Continuous Improvement:</b><br>
-																																		Encouraging Learning: Support ongoing learning and development.<br>
-																																		Feedback Loops: Establish mechanisms for continuous improvement.
+																																		❖&ensp;Adaptable<br>
+																																		❖&ensp;Team Player<br>
+																																		❖&ensp;Attentive listening<br>
+																																		❖&ensp;Good Leadership Skills<br>
+																																		❖&ensp;Effective Oral communication skills<br>
+																																		❖&ensp;Ability to quickly create andapply ideas and solutions
 																																	</div>
 																																</div>
 																															</div>
@@ -1120,131 +976,251 @@
 																															data-element_type="widget"
 																															data-settings="{&quot;vlt_wow_animation_name&quot;:&quot;none&quot;}"
 																															data-widget_type="vlt-projects-details.default">
-																															<div class="elementor-widget-container" style="margin-block: 100px;">
+																															<div class="elementor-widget-container">
 																																<!--  slider  -->
-																																<h1 class="ProjectsHeading elementor-heading-title elementor-size-default">Apps</h1>
-																																<div class="AppSlider">
-																																	<div class="slider-container">
-																																		<div class="slider-wrapper App3Slider">
-																																			<div class="App3Slide"><img src="assets/img/App3/screen1.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen2.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen3.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen4.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen5.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen6.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen7.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen8.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen9.png"></div>
-																																		</div>
-																																		<div class="item-txt">
-																																			<span>Foodii</span>
-																																		</div>
-																																		<button class="slider-prev" onclick="prevApp3Slide()">❮</button>
-																																		<button class="slider-next" onclick="nextApp3Slide()">❯</button>
-																																	</div>
-																																	<div class="slider-container">
-																																		<div class="slider-wrapper App1Slider">
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen1.png">
+																																<div id="gtsm" class="top-content">
+																																	<div class="container-fluid">
+																																		<div id="carousel-example" class="carousel slide" data-ride="carousel">
+																																			<div class="carousel-inner row w-100 mx-auto" role="listbox">
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4 active">
+																																					<a href="#">
+																																						<div class="item-img">
+																																								<img src="assets/img/project/bms.webp">
+																																						</div>
+																																						<div class="item-txt">
+																																							<span>Brand Management System</span>
+																																						</div>
+																																					</a>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/hms.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>Hotel Management System</span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/portfolio.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>Portfolio Website</span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/mradw.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>Films Mall Website</span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/mpv2.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>Birds Media Player V2</span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/ecsv.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>E-Commerce(Single-Vendor)</span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/ecmv.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>E-Commerce (Multi-Vendor)</span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/jenny.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>Jenny (Voice Recognition)</span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/slam.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>SLAM BOOK </span>
+																																					</div>
+																																				</div>
+																																				<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																					<div class="item-img">
+																																						<a href="#">
+																																							<img src="assets/img/project/memo.webp">
+																																						</a>
+																																					</div>
+																																					<div class="item-txt">
+																																						<span>MEMO the Notes</span>
+																																					</div>
+																																				</div>
 																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen2.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen3.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen4.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen5.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen6.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen7.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen8.png">
-																																			</div>
+																																			<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+																																				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																																				<span class="sr-only">Previous</span>
+																																			</a>
+																																			<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+																																				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																																				<span class="sr-only">Next</span>
+																																			</a>
 																																		</div>
-																																		<div class="item-txt">
-																																			<span>Let's Watch</span>
-																																		</div>
-																																		<button class="slider-prev" onclick="prevApp1Slide()">❮</button>
-																																		<button class="slider-next" onclick="nextApp1Slide()">❯</button>
-																																	</div>
-																																	<div class="slider-container">
-																																		<div class="slider-wrapper App2Slider">
-																																			<div class="App2Slide"><img src="assets/img/App2/screen1.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen2.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen3.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen4.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen5.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen6.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen7.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen8.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen9.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen10.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen11.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen12.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen13.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen14.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen15.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen16.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen17.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen18.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen19.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen20.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen21.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen22.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen23.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen24.png"></div>
-																																		</div>
-																																		<div class="item-txt">
-																																			<span>MediKnow</span>
-																																		</div>
-																																		<button class="slider-prev" onclick="prevApp2Slide()">❮</button>
-																																		<button class="slider-next" onclick="nextApp2Slide()">❯</button>
-																																	</div>
-																																</div>
-																																<h1 class="ProjectsHeading elementor-heading-title elementor-size-default">WebSites</h1>
-																																<div class="DesktopSlider">
-																																	<div class="slider-container">
-																																		<div class="slider-wrapper Website1Slider">
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen1.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen2.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen3.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen4.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen5.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen6.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen7.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen8.png"></div>
-																																		</div>
-																																		<div class="item-txt">
-																																			<span>Films Mall</span>
-																																		</div>
-																																		<button class="slider-prev" onclick="prevWebsite1Slide()">❮</button>
-																																		<button class="slider-next" onclick="nextWebsite1Slide()">❯</button>
-																																	</div>
-																																	<div class="slider-container">
-																																		<div class="slider-wrapper Website2Slider">
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen1.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen2.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen3.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen4.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen5.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen6.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen7.png"></div>
-																																		</div>
-																																		<div class="item-txt">
-																																			<span>EShop</span>
-																																		</div>
-																																		<button class="slider-prev" onclick="prevWebsite2Slide()">❮</button>
-																																		<button class="slider-next" onclick="nextWebsite2Slide()">❯</button>
 																																	</div>
 																																</div>
+																																<div id="stsm" class="top-content">
+																																		<div class="container-fluid">
+																																			<div id="carousel-example" class="carousel slide" data-ride="carousel">
+																																				<div class="carousel-inner row w-100 mx-auto" role="listbox">
+																																					<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4 active">
+																																						<div class="row">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/bms.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>Brand Management System</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																						<div class="row"  style="margin-top: 15px;">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/hms.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>Hotel Management System</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																					</div>
+																																					<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																						<div class="row">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/mpv2.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>Birds Media Player V2</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																						<div class="row"  style="margin-top: 15px;">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/ecsv.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>E-Commerce(Single-Vendor)</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																					</div>
+																																					<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																						<div class="row"  style="margin-top: 15px;">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/portfolio.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>Portfolio Website</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																						<div class="row"  style="margin-top: 15px;">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/mradw.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>Films Mall Website</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																					</div>
+																																					<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																						<div class="row">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/ecmv.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>E-Commerce (Multi-Vendor)</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																						<div class="row"  style="margin-top: 15px;">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/jenny.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>Jenny (Voice Recognition)</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																					</div>
+																																					<div class="carousel-item col-12 col-sm-6 col-md-6 col-lg-4">
+																																						<div class="row">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/slam.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>SLAM BOOK </span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																						<div class="row" style="margin-top: 15px;">
+																																							<div class="col-12">
+																																								<div class="item-img">
+																																									<img src="assets/img/project/memo.webp">
+																																								</div>
+																																								<div class="item-txt">
+																																									<span>MEMO the Notes</span>
+																																								</div>
+																																							</div>
+																																						</div>
+																																					</div>
+																																					<!---->
+																																				</div>
+																																				<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+																																					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																																					<span class="sr-only">Previous</span>
+																																				</a>
+																																				<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+																																					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																																					<span class="sr-only">Next</span>
+																																				</a>
+																																			</div>
+																																		</div>
+																																</div>	
 																																<!--  /slider  -->
 																															</div>
 																														</div>
@@ -1294,7 +1270,6 @@
 		</main>
 		<footer class="vlt-footer vlt-boxed vlt-footer--fixed">
 			<div class="vlt-footer-copyright">
-				Anshaj
 			</div>
 			<ul class="vlt-footer-socials">
 				<li>
@@ -1324,126 +1299,6 @@
 			</ul>
 		</footer>
 	</div>
-	<script>
-	  let sliderApp1Index = 0;
-	  function showApp1Slide(index) {
-		const sliderWrapper = document.querySelector('.App1Slider');
-		const slides = document.querySelectorAll('.App1Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderApp1Index = 0;
-		} else if (index < 0) {
-		  sliderApp1Index = slides.length - 1;
-		} else {
-		  sliderApp1Index = index;
-		}
-		const newPosition = -sliderApp1Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function nextApp1Slide() {
-		showApp1Slide(sliderApp1Index + 1);
-	  }
-	  function prevApp1Slide() {
-		showApp1Slide(sliderApp1Index - 1);
-	  }
-	  setInterval(() => nextApp1Slide(), 3000);
-	</script>
-	<script>
-	  let sliderApp2Index = 0;
-	  function showApp2Slide(index) {
-		const sliderWrapper = document.querySelector('.App2Slider');
-		const slides = document.querySelectorAll('.App2Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderApp2Index = 0;
-		} else if (index < 0) {
-		  sliderApp2Index = slides.length - 1;
-		} else {
-		  sliderApp2Index = index;
-		}
-		const newPosition = -sliderApp2Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function nextApp2Slide() {
-		showApp2Slide(sliderApp2Index + 1);
-	  }
-	  function prevApp2Slide() {
-		showApp2Slide(sliderApp2Index - 1);
-	  }
-	  setInterval(() => nextApp2Slide(), 3000);
-	</script>
-	<script>
-	  let sliderApp3Index = 0;
-	  function showApp3Slide(index) {
-		const sliderWrapper = document.querySelector('.App3Slider');
-		const slides = document.querySelectorAll('.App3Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderApp3Index = 0;
-		} else if (index < 0) {
-		  sliderApp3Index = slides.length - 1;
-		} else {
-		  sliderApp3Index = index;
-		}
-		const newPosition = -sliderApp3Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function prevApp3Slide() {
-		showApp3Slide(sliderApp3Index - 1);
-	  }
-	  function nextApp3Slide() {
-		showApp3Slide(sliderApp3Index + 1);
-	  }
-	  setInterval(() => nextApp3Slide(), 3000);
-	</script>
-	<script>
-	  let sliderWebsite1Index = 0;
-	  function showWebsite1Slide(index) {
-		const sliderWrapper = document.querySelector('.Website1Slider');
-		const slides = document.querySelectorAll('.Website1Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderWebsite1Index = 0;
-		} else if (index < 0) {
-		  sliderWebsite1Index = slides.length - 1;
-		} else {
-		  sliderWebsite1Index = index;
-		}
-		const newPosition = -sliderWebsite1Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function prevWebsite1Slide() {
-		showWebsite1Slide(sliderWebsite1Index - 1);
-	  }
-	  function nextWebsite1Slide() {
-		showWebsite1Slide(sliderWebsite1Index + 1);
-	  }
-	  setInterval(() => nextWebsite1Slide(), 3000);
-	</script>
-	<script>
-	  let sliderWebsite2Index = 0;
-	  function showWebsite2Slide(index) {
-		const sliderWrapper = document.querySelector('.Website2Slider');
-		const slides = document.querySelectorAll('.Website2Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderWebsite2Index = 0;
-		} else if (index < 0) {
-		  sliderWebsite2Index = slides.length - 1;
-		} else {
-		  sliderWebsite2Index = index;
-		}
-		const newPosition = -sliderWebsite2Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function prevWebsite2Slide() {
-		showWebsite2Slide(sliderWebsite2Index - 1);
-	  }
-	  function nextWebsite2Slide() {
-		showWebsite2Slide(sliderWebsite2Index + 1);
-	  }
-	  setInterval(() => nextWebsite2Slide(), 3000);
-	</script>
 	<script type='text/javascript' src='assets/js/jquery4a5f.js'></script>
 	<script type='text/javascript'>
 		var elementorFrontendConfig = {
