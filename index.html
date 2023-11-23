@@ -52,7 +52,15 @@
 		}
 	</style>
 	<style>
+		@media (min-width: 900px) {
+		.DesktopSlider .slider-container {
+			min-width: 800px;
+		}
+		}
 		@media (min-width: 600px) {
+		.DesktopSlider .slider-container {
+			min-width: 500px;
+		}
 		.ProjectsHeading {
 			margin-block: 100px 50px;
 			text-align: center;
@@ -96,7 +104,6 @@
 		}
 		.DesktopSlider .slider-container {
 			width: 48%;
-			min-width: 800px;
 		}
 		.Website1Slide, .Website2Slide {
 			display: flex;
@@ -142,6 +149,9 @@
 		right: 2px;
 		}
 		@media (max-width: 600px) {
+		.DesktopSlider .slider-container {
+			width: 90%!important;
+		}
 		.ProjectsHeading {
 			margin-block: 70px 30px;
 			text-align: center;
