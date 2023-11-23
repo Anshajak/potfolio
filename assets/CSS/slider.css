@@ -37,12 +37,13 @@
           visibility: visible;
       }
       .item-txt{
+        text-align: center;
           font-size: 20px;
           font-weight: 600;
-          color: black;
+          color: white;
           line-height: 12px;
           padding: 9px 6px;
-          background: white;
+          background: #1aa0a7;
       }
   
   }
@@ -63,12 +64,13 @@
           padding: 0px!important;
       }
       .item-txt{
+        text-align: center;
           font-size: 20px;
           font-weight: 600;
-          color: black;
+          color: white;
           line-height: 12px;
           padding: 9px 6px;
-          background: white;
+          background: #1aa0a7;
       }
   
   }
@@ -94,12 +96,13 @@
           padding-right: 0px;
       }
       .item-txt{
+        text-align: center;
           font-size: 16px;
           font-weight: 600;
-          color: black;
+          color: white;
           line-height: 12px;
           padding: 9px 6px;
-          background: white;
+          background: #1aa0a7;
       }
   
   }
@@ -112,12 +115,13 @@
         padding: 0px!important;
     }
     .item-txt{
+        text-align: center;
         font-size: 18px;
         font-weight: 600;
-        color: black;
+        color: white;
         line-height: 12px;
         padding: 9px 6px;
-        background: white;
+        background: #1aa0a7;
     }
   }
   @media (max-width:439px) {
@@ -137,12 +141,13 @@
         padding-right: 0px;
     }
     .item-txt{
+        text-align: center;
         font-size: 16px;
         font-weight: 600;
-        color: black;
+        color: white;
         line-height: 12px;
         padding: 9px 6px;
-        background: white;
+        background: #1aa0a7;
     }
   }
   @media (max-width:306px) {
@@ -164,12 +169,13 @@
         padding-right: 0px;
     }
     .item-txt{
+        text-align: center;
         font-size: 16px;
         font-weight: 600;
-        color: black;
+        color: white;
         line-height: 12px;
         padding: 9px 6px;
-        background: white;
+        background: #1aa0a7;
     }
     .item-img{
         height: calc(100% - 35px);
