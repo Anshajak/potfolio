@@ -3,179 +3,18 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="UTF-8">
-	<link rel="icon" href="assets/img/title-logo.png" />
-	<!--  Main CSS  -->
-	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-	<link media="all" href="assets/CSS/MainBack.css" rel="stylesheet" />
-	<style>
-		.hovtextleft {
-			width: 160px;
-			font-size: 15px;
-			font-weight: 900;
-			top: -134%;
-			background: #00000045;
-			color: #70edf3;
-			text-align: center;
-			padding: 5px 2px;
-			border-radius: 6px;
-		}
-
-		.hovtext .hovtextup {
-			visibility: hidden;
-			width: 100px;
-			font-size: 14px;
-			font-weight: 700;
-			color: #70edf3;
-			background: #00000026;
-			text-align: center;
-			padding: 5px 5px;
-			border-radius: 6px;
-
-			position: absolute;
-			bottom: 100%;
-			left: 50%;
-			margin-left: -60px;
-			/* Use half of the width (120/2 = 60), to center the tooltip */
-			z-index: 1;
-		}
-
-		/* Show the tooltip text when you mouse over the tooltip container */
-		.hovtext:hover .hovtextup {
-			visibility: visible;
-		}
-
-		body #pp-nav li span:hover .hovtextleft,
-		body #pp-nav li .active span:hover .hovtextleft {
-			visibility: visible;
-		}
-	</style>
-	<style>
-		@media (min-width: 900px) {
-		.DesktopSlider .slider-container {
-			min-width: 800px;
-		}
-		}
-		@media (min-width: 600px) {
-		.DesktopSlider .slider-container {
-			min-width: 500px;
-		}
-		.ProjectsHeading {
-			margin-block: 100px 50px;
-			text-align: center;
-		}
-			.rerow {
-				display: grid!important;
-				grid-template-columns: 1fr 35%;
-			}
-		}
-		.slider-container {
-		width: 400px;
-		margin: auto;
-		overflow: hidden;
-		/* border: 1px solid #ccc; */
-		position: relative;
-		margin-bottom: 0;
-		}
-		.slider-wrapper {
-		display: flex;
-		transition: transform 0.5s ease-in-out;
-		}
-		.slide {
-		min-width: 100%;
-		box-sizing: border-box;
-		display: flex;
-		flex-direction: column;
-		max-height: 800px;
-		}
-		.AppSlider, .DesktopSlider {
-			display: flex;
-			flex-wrap: wrap;
-			row-gap: 40px;
-		}
-		.App1Slide, .App2Slide, .App3Slide {
-			display: flex;
-			justify-content: center;
-			min-width: 100%;
-			box-sizing: border-box;
-			/* height: 650px; */
-  			transition: transform 0.5s ease-in-out;
-		}
-		.DesktopSlider .slider-container {
-			width: 48%;
-		}
-		.Website1Slide, .Website2Slide {
-			display: flex;
-			justify-content: center;
-			min-width: 100%;
-			box-sizing: border-box;
-			max-height: 650px;
-  			transition: transform 0.5s ease-in-out;
-		}
-		.App1Slide img, .App2Slide img, .App3Slide img, .Website1Slide img, .Website2Slide img {
-			object-fit: contain;
-		}
-		.item-wrapper {
-			width: 100%;
-			height: 50%;
-		}
-		.slider-prev, .slider-next {
-		cursor: pointer;
-		position: absolute;
-		top: 50%;
-		width: 45px;
-		height: 45px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border-radius: 100%!important;
-		padding: 16px;
-		margin-top: -22px;
-		color: white;
-		font-weight: bold;
-		font-size: 18px;
-		transition: 0.6s ease;
-		border-radius: 0 3px 3px 0;
-		background-color: rgba(0, 0, 0, 0.8);
-		border: none!important;
-		outline: none;
-		user-select: none;
-		}
-		.slider-prev {
-		left: 2px;
-		}
-		.slider-next {
-		right: 2px;
-		}
-		@media (max-width: 600px) {
-		.DesktopSlider .slider-container {
-			width: 90%!important;
-		}
-		.ProjectsHeading {
-			margin-block: 70px 30px;
-			text-align: center;
-		}
-		.slider-prev, .slider-next {
-			font-size: 14px;
-		}
-		.slider-container {
-			width: 300px!important;
-		}
-		}
-	</style>
-	<!-- container -->
-	<link rel='stylesheet' id='elementor-frontend-css' href='assets/CSS/head-frontend.css' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='elementor-global-css' href='assets/CSS/tophead.css' type='text/css' media='all' />
-	<link href="assets/fontawesome/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/CSS/sliderbs.css">
-	<link href="assets/CSS/slider.css" rel="stylesheet">
-
-	<!--  Main CSS  -->
 	<title>Anshaj &#8211; Portfolio</title>
-
-
+	<link rel="icon" href="assets/img/title-logo.png" />
+	<!--  CSS  -->
+	<link rel="stylesheet" href="assets/CSS/MainBack.css" media="all" />
+	<link rel='stylesheet' href='assets/CSS/head-frontend.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='assets/CSS/tophead.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='assets/CSS/Slider.css' />
+	<link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+	<!--  CSS  -->
 </head>
 
 <body
@@ -188,7 +27,7 @@
 				<div class="vlt-navbar-inner">
 					<div class="vlt-navbar-inner--left"> 
 						<a href="#Home" class="vlt-navbar-logo"> 
-							<img src="assets/img/nav-logo.png" alt="Anshaj"> 
+							<img loading="lazy" src="assets/img/nav-logo.png" alt="Anshaj"> 
 						</a>
 					</div>
 					<div class="vlt-navbar-inner--right">
@@ -305,7 +144,7 @@
 																												data-id="1eb29b6f" data-element_type="column">
 																												<div class="elementor-column-wrap  elementor-element-populated">
 																													<div class="row elementor-widget-wrap" style="flex-direction: row-reverse;justify-content: space-between;align-items: flex-end;">
-																														<img src="assets/img/anshaj.png"/>
+																														<img loading="lazy" src="assets/img/anshaj.png"/>
 																														<div >
 																															<div class="elementor-element elementor-element-681cbdf5 elementor-widget elementor-widget-heading" data-id="681cbdf5"
 																																data-element_type="widget" data-settings="{&quot;vlt_wow_animation_name&quot;:&quot;none&quot;}" data-widget_type="heading.default">
@@ -346,7 +185,7 @@
 																																data-widget_type="vlt-video-button.default">
 																																<div class="elementor-widget-container">
 																																	<a class="vlt-video-button" style="text-decoration: solid;" target="_blank"
-																																		href="https://drive.google.com/file/d/1X7A85PYPO4M83Dmahnoy8KT-rQOtMvjf/view?usp=sharing">
+																																		href="https://drive.google.com/file/d/1CnL5BAG73rOHydxJW8c1kPr0tP7FJ2Pr/view?usp=sharing">
 																																		<i class="fas fa-play"></i>
 																																		<span>Watch Resume</span>
 																																	</a>
@@ -1103,7 +942,7 @@
 																		</div>
 																	</div>
 																</div>
-																<div class="vlt-section pp-scrollable" data-anchor="Projects">
+																<div class="vlt-section pp-scrollable" id="Projects" data-anchor="Projects">
 																	<div class="vlt-section__vertical-align-wrap">
 																		<div class="vlt-section__background "
 																			style="background-image: linear-gradient(207deg, #5e2d8b 9%, #2B86C5 56%, #353966 69%);">
@@ -1137,15 +976,15 @@
 																																<div class="AppSlider">
 																																	<div class="slider-container">
 																																		<div class="slider-wrapper App3Slider">
-																																			<div class="App3Slide"><img src="assets/img/App3/screen1.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen2.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen3.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen4.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen5.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen6.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen7.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen8.png"></div>
-																																			<div class="App3Slide"><img src="assets/img/App3/screen9.png"></div>
+																																			<div class="App3Slide"><img loading="eager" src="assets/img/App3/screen1.webp"></div>
+																																			<div class="App3Slide"><img loading="eager" src="assets/img/App3/screen2.webp"></div>
+																																			<div class="App3Slide"><img loading="lazy" src="assets/img/App3/screen3.webp"></div>
+																																			<div class="App3Slide"><img loading="lazy" src="assets/img/App3/screen4.webp"></div>
+																																			<div class="App3Slide"><img loading="lazy" src="assets/img/App3/screen5.webp"></div>
+																																			<div class="App3Slide"><img loading="lazy" src="assets/img/App3/screen6.webp"></div>
+																																			<div class="App3Slide"><img loading="lazy" src="assets/img/App3/screen7.webp"></div>
+																																			<div class="App3Slide"><img loading="lazy" src="assets/img/App3/screen8.webp"></div>
+																																			<div class="App3Slide"><img loading="lazy" src="assets/img/App3/screen9.webp"></div>
 																																		</div>
 																																		<div class="item-txt">
 																																			<span>Foodii</span>
@@ -1155,30 +994,14 @@
 																																	</div>
 																																	<div class="slider-container">
 																																		<div class="slider-wrapper App1Slider">
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen1.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen2.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen3.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen4.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen5.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen6.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen7.png">
-																																			</div>
-																																			<div class="App1Slide">
-																																				<img src="assets/img/App1/screen8.png">
-																																			</div>
+																																			<div class="App1Slide"><img loading="eager" src="assets/img/App1/screen1.webp"></div>
+																																			<div class="App1Slide"><img loading="eager" src="assets/img/App1/screen2.webp"></div>
+																																			<div class="App1Slide"><img loading="lazy" src="assets/img/App1/screen3.webp"></div>
+																																			<div class="App1Slide"><img loading="lazy" src="assets/img/App1/screen4.webp"></div>
+																																			<div class="App1Slide"><img loading="lazy" src="assets/img/App1/screen5.webp"></div>
+																																			<div class="App1Slide"><img loading="lazy" src="assets/img/App1/screen6.webp"></div>
+																																			<div class="App1Slide"><img loading="lazy" src="assets/img/App1/screen7.webp"></div>
+																																			<div class="App1Slide"><img loading="lazy" src="assets/img/App1/screen8.webp"></div>
 																																		</div>
 																																		<div class="item-txt">
 																																			<span>Let's Watch</span>
@@ -1188,30 +1011,30 @@
 																																	</div>
 																																	<div class="slider-container">
 																																		<div class="slider-wrapper App2Slider">
-																																			<div class="App2Slide"><img src="assets/img/App2/screen1.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen2.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen3.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen4.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen5.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen6.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen7.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen8.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen9.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen10.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen11.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen12.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen13.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen14.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen15.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen16.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen17.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen18.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen19.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen20.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen21.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen22.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen23.png"></div>
-																																			<div class="App2Slide"><img src="assets/img/App2/screen24.png"></div>
+																																			<div class="App2Slide"><img loading="eager" src="assets/img/App2/screen1.webp"></div>
+																																			<div class="App2Slide"><img loading="eager" src="assets/img/App2/screen2.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen3.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen4.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen5.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen6.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen7.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen8.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen9.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen10.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen11.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen12.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen13.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen14.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen15.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen16.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen17.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen18.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen19.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen20.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen21.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen22.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen23.webp"></div>
+																																			<div class="App2Slide"><img loading="lazy" src="assets/img/App2/screen24.webp"></div>
 																																		</div>
 																																		<div class="item-txt">
 																																			<span>MediKnow</span>
@@ -1224,14 +1047,14 @@
 																																<div class="DesktopSlider">
 																																	<div class="slider-container">
 																																		<div class="slider-wrapper Website1Slider">
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen1.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen2.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen3.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen4.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen5.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen6.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen7.png"></div>
-																																			<div class="Website1Slide"><img src="assets/img/Website1/screen8.png"></div>
+																																			<div class="Website1Slide"><img loading="eager" src="assets/img/Website1/screen1.webp"></div>
+																																			<div class="Website1Slide"><img loading="eager" src="assets/img/Website1/screen2.webp"></div>
+																																			<div class="Website1Slide"><img loading="lazy" src="assets/img/Website1/screen3.webp"></div>
+																																			<div class="Website1Slide"><img loading="lazy" src="assets/img/Website1/screen4.webp"></div>
+																																			<div class="Website1Slide"><img loading="lazy" src="assets/img/Website1/screen5.webp"></div>
+																																			<div class="Website1Slide"><img loading="lazy" src="assets/img/Website1/screen6.webp"></div>
+																																			<div class="Website1Slide"><img loading="lazy" src="assets/img/Website1/screen7.webp"></div>
+																																			<div class="Website1Slide"><img loading="lazy" src="assets/img/Website1/screen8.webp"></div>
 																																		</div>
 																																		<div class="item-txt">
 																																			<span>Films Mall</span>
@@ -1241,13 +1064,13 @@
 																																	</div>
 																																	<div class="slider-container">
 																																		<div class="slider-wrapper Website2Slider">
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen1.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen2.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen3.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen4.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen5.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen6.png"></div>
-																																			<div class="Website2Slide"><img src="assets/img/Website2/screen7.png"></div>
+																																			<div class="Website2Slide"><img loading="eager" src="assets/img/Website2/screen1.webp"></div>
+																																			<div class="Website2Slide"><img loading="eager" src="assets/img/Website2/screen2.webp"></div>
+																																			<div class="Website2Slide"><img loading="lazy" src="assets/img/Website2/screen3.webp"></div>
+																																			<div class="Website2Slide"><img loading="lazy" src="assets/img/Website2/screen4.webp"></div>
+																																			<div class="Website2Slide"><img loading="lazy" src="assets/img/Website2/screen5.webp"></div>
+																																			<div class="Website2Slide"><img loading="lazy" src="assets/img/Website2/screen6.webp"></div>
+																																			<div class="Website2Slide"><img loading="lazy" src="assets/img/Website2/screen7.webp"></div>
 																																		</div>
 																																		<div class="item-txt">
 																																			<span>EShop</span>
@@ -1335,126 +1158,7 @@
 			</ul>
 		</footer>
 	</div>
-	<script>
-	  let sliderApp1Index = 0;
-	  function showApp1Slide(index) {
-		const sliderWrapper = document.querySelector('.App1Slider');
-		const slides = document.querySelectorAll('.App1Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderApp1Index = 0;
-		} else if (index < 0) {
-		  sliderApp1Index = slides.length - 1;
-		} else {
-		  sliderApp1Index = index;
-		}
-		const newPosition = -sliderApp1Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function nextApp1Slide() {
-		showApp1Slide(sliderApp1Index + 1);
-	  }
-	  function prevApp1Slide() {
-		showApp1Slide(sliderApp1Index - 1);
-	  }
-	  setInterval(() => nextApp1Slide(), 3000);
-	</script>
-	<script>
-	  let sliderApp2Index = 0;
-	  function showApp2Slide(index) {
-		const sliderWrapper = document.querySelector('.App2Slider');
-		const slides = document.querySelectorAll('.App2Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderApp2Index = 0;
-		} else if (index < 0) {
-		  sliderApp2Index = slides.length - 1;
-		} else {
-		  sliderApp2Index = index;
-		}
-		const newPosition = -sliderApp2Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function nextApp2Slide() {
-		showApp2Slide(sliderApp2Index + 1);
-	  }
-	  function prevApp2Slide() {
-		showApp2Slide(sliderApp2Index - 1);
-	  }
-	  setInterval(() => nextApp2Slide(), 3000);
-	</script>
-	<script>
-	  let sliderApp3Index = 0;
-	  function showApp3Slide(index) {
-		const sliderWrapper = document.querySelector('.App3Slider');
-		const slides = document.querySelectorAll('.App3Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderApp3Index = 0;
-		} else if (index < 0) {
-		  sliderApp3Index = slides.length - 1;
-		} else {
-		  sliderApp3Index = index;
-		}
-		const newPosition = -sliderApp3Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function prevApp3Slide() {
-		showApp3Slide(sliderApp3Index - 1);
-	  }
-	  function nextApp3Slide() {
-		showApp3Slide(sliderApp3Index + 1);
-	  }
-	  setInterval(() => nextApp3Slide(), 3000);
-	</script>
-	<script>
-	  let sliderWebsite1Index = 0;
-	  function showWebsite1Slide(index) {
-		const sliderWrapper = document.querySelector('.Website1Slider');
-		const slides = document.querySelectorAll('.Website1Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderWebsite1Index = 0;
-		} else if (index < 0) {
-		  sliderWebsite1Index = slides.length - 1;
-		} else {
-		  sliderWebsite1Index = index;
-		}
-		const newPosition = -sliderWebsite1Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function prevWebsite1Slide() {
-		showWebsite1Slide(sliderWebsite1Index - 1);
-	  }
-	  function nextWebsite1Slide() {
-		showWebsite1Slide(sliderWebsite1Index + 1);
-	  }
-	  setInterval(() => nextWebsite1Slide(), 3000);
-	</script>
-	<script>
-	  let sliderWebsite2Index = 0;
-	  function showWebsite2Slide(index) {
-		const sliderWrapper = document.querySelector('.Website2Slider');
-		const slides = document.querySelectorAll('.Website2Slide');
-		const slideWidth = slides[0].offsetWidth;
-		if (index >= slides.length) {
-		  sliderWebsite2Index = 0;
-		} else if (index < 0) {
-		  sliderWebsite2Index = slides.length - 1;
-		} else {
-		  sliderWebsite2Index = index;
-		}
-		const newPosition = -sliderWebsite2Index * slideWidth;
-		sliderWrapper.style.transform = `translateX(${newPosition}px)`;
-	  }
-	  function prevWebsite2Slide() {
-		showWebsite2Slide(sliderWebsite2Index - 1);
-	  }
-	  function nextWebsite2Slide() {
-		showWebsite2Slide(sliderWebsite2Index + 1);
-	  }
-	  setInterval(() => nextWebsite2Slide(), 3000);
-	</script>
+
 	<script type='text/javascript' src='assets/js/jquery4a5f.js'></script>
 	<script type='text/javascript'>
 		var elementorFrontendConfig = {
@@ -1496,8 +1200,8 @@
 			}
 		};
 	</script>
+	<script defer src="assets/js/Sliders.js"></script>
 	<script defer src="assets/js/MainBackJS.js"></script>
-	<script defer src="assets/js/sliderbs.js"></script>
 </body>
 
 </html>

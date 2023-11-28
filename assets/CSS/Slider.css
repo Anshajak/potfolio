@@ -1,0 +1,178 @@
+.hovtextleft {
+  width: 160px;
+  font-size: 15px;
+  font-weight: 900;
+  top: -134%;
+  background: #00000045;
+  color: #70edf3;
+  text-align: center;
+  padding: 5px 2px;
+  border-radius: 6px;
+}
+
+.hovtext .hovtextup {
+  visibility: hidden;
+  width: 100px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #70edf3;
+  background: #00000026;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  /* Use half of the width (120/2 = 60), to center the tooltip */
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.hovtext:hover .hovtextup {
+  visibility: visible;
+}
+
+body #pp-nav li span:hover .hovtextleft,
+body #pp-nav li .active span:hover .hovtextleft {
+  visibility: visible;
+}
+
+/* Slider */
+@media (min-width: 600px) {
+  .ProjectsHeading {
+    margin-block: 100px 50px;
+    text-align: center;
+  }
+  .rerow {
+    display: grid !important;
+    grid-template-columns: 1fr 35%;
+  }
+}
+.slider-container {
+  width: 300px;
+  margin: auto;
+  overflow: hidden;
+  /* border: 1px solid #ccc; */
+  position: relative;
+  margin-bottom: 0;
+}
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-height: 800px;
+}
+.AppSlider,
+.DesktopSlider {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.App1Slide,
+.App2Slide,
+.App3Slide {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  box-sizing: border-box;
+  /* height: 650px; */
+  transition: transform 0.5s ease-in-out;
+}
+.DesktopSlider .slider-container {
+  width: 48%;
+}
+.Website1Slide,
+.Website2Slide {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  box-sizing: border-box;
+  max-height: 650px;
+  transition: transform 0.5s ease-in-out;
+}
+.App1Slide img,
+.App2Slide img,
+.App3Slide img,
+.Website1Slide img,
+.Website2Slide img {
+  object-fit: contain;
+}
+.item-wrapper {
+  width: 100%;
+  height: 50%;
+}
+.slider-prev,
+.slider-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100% !important;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none !important;
+  outline: none;
+  user-select: none;
+}
+.slider-prev {
+  left: 2px;
+}
+.slider-next {
+  right: 2px;
+}
+@media (max-width: 1500px) {
+    .DesktopSlider .slider-container {
+      width: 90%!important;
+    }    
+}
+@media (max-width: 600px) {
+  .ProjectsHeading {
+    margin-block: 70px 30px;
+    text-align: center;
+  }
+  .slider-prev,
+  .slider-next {
+    font-size: 14px;
+  }
+  .slider-container {
+    width: 300px !important;
+  }
+}
+
+.item-txt{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 12px;
+    padding: 9px 6px;
+    background: #1aa0a7;
+}
+@media (max-width: 576px) {
+    .item-txt{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        line-height: 12px;
+        padding: 9px 6px;
+        background: #1aa0a7;
+    }
+}
